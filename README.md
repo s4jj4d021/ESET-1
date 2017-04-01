@@ -48,8 +48,6 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 
 
-cd ..
-
 sudo chmod +x ESET.lua
 
 sudo chmod +x start.sh
