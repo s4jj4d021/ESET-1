@@ -1,6 +1,9 @@
 سیستم عامل فقط باید اوبنتو 16 ، 64 بیت باشه
 
 بعد کد های زیر رو تک تک وارد کنید
+git clone https://github.com/Source-advan/ESET
+
+cd ESET
 
 sudo apt-get update
 
