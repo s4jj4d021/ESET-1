@@ -8,9 +8,9 @@ notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 day = 86400
-bot_id = 325467681 -- [[محل قرار گیری آیدی اکانت ربات]]
-sudo_users = {228572542,222751735,235173554,272376346,287192786,258220821,192191034,181612899} -- [[محل قرار گیری آیدی سودو ها]]
-bot_owner = {228572542} -- [[ محل قرار گیری آیدی مدیر اصلی ربات ]]
+bot_id = 123456789 -- [[محل قرار گیری آیدی اکانت ربات]]
+sudo_users = {350419590} -- [[محل قرار گیری آیدی سودو ها]]
+bot_owner = {350419590} -- [[ محل قرار گیری آیدی مدیر اصلی ربات ]]
   -----------------------------------------------------------------------------------------------                  
      ---------------
   -- Start Functions --
@@ -3259,18 +3259,12 @@ local function gpro(extra, result, success)
     local txt = {string.match(text, "^([Dd]ata) (%d+)$")} 
     local hash =  'sudo:data:'..txt[2]
 	local list = database:smembers(hash)
-	if tonumber(txt[2]) == 181612899 then
-	name = "محمد"
-	elseif tonumber(txt[2]) == 192191034 then
-	name = "احسان"
-	elseif tonumber(txt[2]) == 222751735 then
-	name = "محمد رضا"
-	elseif tonumber(txt[2]) == 258220821 then
-	name = "دانیال"
-	elseif tonumber(txt[2]) == 272376346 then
-	name = "علیرضا"
-	elseif tonumber(txt[2]) == 228572542 then
-	name = "سجاد مومن"
+	if tonumber(txt[2]) == 123456786 then
+	name = "1"
+	elseif tonumber(txt[2]) == 123456787 then
+	name = "mahdi"
+	elseif tonumber(txt[2]) == 350419590 then
+	name = "Wow_heh"
 	else
 	name = "ناشناس"
 	--elseif txt[2] ==
