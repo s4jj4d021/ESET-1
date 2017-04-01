@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Edit BY : @Wow_heh
+#Create BY : @EndlessLine
 memTotal_b=`free -b |grep Mem |awk '{print $2}'`
 memFree_b=`free -b |grep Mem |awk '{print $4}'`
 memBuffer_b=`free -b |grep Mem |awk '{print $6}'`
@@ -31,7 +31,7 @@ echo ""
 sleep 1
 echo -e "\e[1mOperation : \e[96mStarting Bot\e[0m"
 echo -e "\e[1mSource : \e[94m ESET Nod 32 Version 3 On Dec 2016\e[0m"
-echo -e "\e[38;5;82mDeveloper : \e[38;5;226mSajjad Momen @Wow_heh\e[0m"
+echo -e "\e[38;5;82mDeveloper : \e[38;5;226mSajjad Momen @Endlessline\e[0m"
 echo -e "\e[1m**********************************\e[0m"
 sleep 2
 echo -e "\e[1mTime : \e[45m$time\e[0m \e[1"
